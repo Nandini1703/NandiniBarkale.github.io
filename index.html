@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nandini Barkale Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>/* =========================
+   MODERN PROFESSIONAL THEME
+========================= */
+:root {
+  --bg-main: #0e4f05;      /* Main Background */
+  --bg-card: #69a467;      /* Cards */
+  --primary: #e2ea6d;      /* Yellow */
+  --secondary: #ffffff;    /* White */
+  --text-main: #ffffff;
+  --text-muted: #9ca3af;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+  background: linear-gradient(135deg, #69a467, #000000);
+  color: var(--text-main);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+#ftco-navbar {
+  background: rgba(42, 44, 50, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   HERO TEXT
+========================= */
+h1 span {
+  background: linear-gradient(90deg, #c6d040, #78d575);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  letter-spacing: 1px;
+  color: var(--secondary);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-primary {
+  background: linear-gradient(135deg, #c6d040,#c6d040);
+  color: #e8eacc;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px #cad61f(250,204,21,0.4);
+}
+
+/* =========================
+   CARDS
+========================= */
+.resume-wrap, .blog-entry {
+  background: var(--bg-card);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(128, 159, 68, 0.5);
+  transition: all 0.4s ease;
+  border: 1px solid #cad61f(250,204,21,0.1);
+}
+
+.resume-wrap:hover, .blog-entry:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 50px #f5f564(250,204,21,0.2);
+}
+
+/* =========================
+   LINKS
+========================= */
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: #fde68a;
+}
+
+/* =========================
+   SKILLS BAR
+========================= */
+.skill-mf .progress {
+  height: 8px;
+  border-radius: 20px;
+  background: #3a3c42;
+}
+
+.skill-mf .progress-bar {
+  background: linear-gradient(90deg, #a79e7c, #fde68a);
+  border-radius: 20px;
+}
+
+/* =========================
+   IMAGE HOVER
+========================= */
+.zoom-effect {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.zoom-effect img {
+  transition: transform 0.5s ease;
+}
+
+.zoom-effect:hover img {
+  transform: scale(1.1);
+}
+
+/* =========================
+   SECTION HEADINGS
+========================= */
+.heading-section h2 {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.big {
+  opacity: 0.05;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+/* =========================
+   COUNTER SECTION
+========================= */
+.ftco-counter {
+  background: linear-gradient(135deg, #d6b32a, #fde68a);
+  color: #d7d9e4;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.ftco-footer {
+  background: #18191d;
+  color: var(--text-muted);
+}
+
+/* =========================
+   GENERAL SMOOTH EFFECT
+========================= */
+* {
+  transition: all 0.3s ease-in-out;
+}
+.slider-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+}
+
+/* Text always above */
+.text {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+.about-info {
+  padding-left: 0;
+}
+
+.about-info li {
+  list-style: none;
+  text-align: left;
+}
+
+
+
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Nandini Barkale</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	<!--  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-flex justify-content-center align-items-center text-center" style="height:100vh;" >
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url( );">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Nandini Barkale</span></h1>
+
+ <h2>Aspiring Data Analyst</h2>
+
+     ✅ NEW SHORT INTRO 
+    <p style="max-width:600px; margin:auto; margin-top:15px;">
+      Passionate about transforming data into meaningful insights.
+    </p>
+
+    ✅ BASIC INFO
+    <div style="margin-top:20px; font-size:14px; color:#9ca3af;">
+      📍 Nashik, India &nbsp; | &nbsp; 📧 contact@domain.com
+    </div>
+
+
+
+
+						 Element to contain animated typing 
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Engineer  ',
+						
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2> Data Analyst</h2>
+						<h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> 
+						 <br> 
+			            <p><a href="https://www.linkedin.com/in/contact-nandinibarkale17/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+							<a href="https://github.com/Nandini1703" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>-->
+
+
+<section id="home-section" class="hero">
+  <div class="slider-item" style="background-image: url('images/yellow.jpeg');">
+    
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center text-center" style="height:100vh;">
+        
+        <div class="col-md-10">
+          <div class="text">
+            
+            <span class="subheading">Hello!</span>
+            <h1 class="mb-4 mt-3">I'm <span>Nandini Barkale</span></h1>
+            <h2>Data Analyst & Android Developer</h2>
+
+            <p style="max-width:600px; margin:auto; margin-top:15px;">
+              
+Turning data into meaningful insights and building real-world solutions.  
+Skilled in SQL, Power BI, Python, and Java.
+            </p>
+
+            <div style="margin-top:20px;">
+              <a href="https://www.linkedin.com/in/contact-nandinibarkale17" target="_blank" class="btn btn-primary py-3 px-4">LinkedIn</a>
+              <a href="https://github.com/Nandini1703" class="btn btn-white btn-outline-white py-3 px-4">My Work</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				 <div class="row d-flex"> 
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									
+									
+									
+									</div>
+								  </div>
+
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Experienced in data analytics, Android development, and web development through multiple internships. Built interactive dashboards using Power BI and DAX for business insights, developed Android applications with Java and modern UI components, and created dynamic websites with PHP while working with databases and DBMS fundamentals.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+								    <li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+									<li class="d-flex"><span>Specialization:</span> <span>Computer Science and Engineering</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi , Marathi</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Jupiter Notebook, MS Excel, Git, Android Studio, Google Analytics &amp; SEO</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Photography, Book Reading</span></li>
+									
+								</ul>
+
+                                   
+
+
+
+
+							</div>
+						</div>
+
+
+						
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="4">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="www.linkedin.com/in/contact-nandinibarkale17/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section> -->
+
+
+<section class="ftco-section" id="about-section">
+  <div class="container">
+    
+    <div class="row align-items-center">
+
+      <!-- LEFT SIDE -->
+      <div class="col-lg-7 col-md-6">
+        <div class="heading-section">
+          <h1 class="big">About</h1>
+          <h2 class="mb-4">About Me</h2>
+
+          <p>
+I’m Nandini Barkale, a Computer Science Engineering student with hands-on experience in Data Analytics and Android Development. I have worked with tools like SQL, Excel, Power BI, and Python to analyze data and build interactive dashboards, along with developing Android applications using Java and XML. During my internships, I gained practical experience in data cleaning, modeling, and creating data-driven solutions. I enjoy solving real-world problems through technology and continuously strive to enhance my analytical and development skills.
+
+
+          </p>
+
+         <ul class="about-info mt-4">
+  
+  <li><span>Education:</span> <span>Bachelor of Engineering</span></li>
+  <li><span>Specialization:</span> <span>Computer Science and Engineering</span></li>
+  <li><span>Technical Tools:</span> <span>Microsoft Power BI, Android Studio, Jupyter Notebook, VS Code, MS Excel, Word, Power Point</span></li>
+  <li><span>Technical Skills:</span> <span>MySQL, Python, Java, Android,DBMS</span></li>
+  <li><span>Language:</span> <span>English, Hindi, Marathi</span></li>
+  <li><span>Interest:</span> <span>Traveling, Photography, Book Reading</span></li>
+</ul>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-5 col-md-6 text-center">
+        <img src="images/qrcode.png" class="scanner-img">
+        <p>Scan to Check my Resume</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Skilled in tools and technologies including Power BI, Excel, SQL, Java, and Android Studio, with a strong focus on data-driven problem solving, user-friendly design, and delivering impactful solutions</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2026-Present</span>
+						<h2>Data Analyst Intern</h2>
+						<span class="position">Microsoft Elevate</span>
+						<p class="mt-4">Microsoft Elevate is a global initiative launched by Microsoft to provide AI skills,Internship ,for students, educators, and organizations
+							<ul>
+								<li>Completed hands-on training in Power BI, data cleaning, data modeling, and DAX.</li>
+								<li>Developed a sales performance analysis dashboard to generate business insights.</li>
+								<li>Improved understanding of data-driven decision-making using interactive reports.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Feb 2024-May 2024</span>
+						<h2>Android Developer Intern</h2>
+						<span class="position">Edu-Station</span>
+						<p class="mt-4">Edu-Station platform emphasizes practical learning through projects, internships, and real-world applications.
+							<ul>
+								<li>Developed and deployed functional Android applications using java and android studio.</li>
+								<li>Worked with XML layout and jetpack component to design responsive and interactive user interface.</li>
+								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">June 2022 – July 2022</span>
+						<h2>Web Developer Intern</h2>
+						<span class="position">Calibers Infotech</span>
+						<p class="mt-4">Caliber Infotech is an IT development company that provides practical exposure to web development and database management.
+							<ul>
+								<li>Learned how to connect databases with websites using PHP.</li>
+								<li>Built basic web pages and understood backend integration.</li>
+								<li>   Gained knowledge of DBMS concepts
+Improved understanding of web development workflow.       </li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+
+
+
+
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2023-2026</span>
+    					<h2>Bachelor of Engineering</h2>
+    					<span class="position">Sandip University</span>
+    					<p class="mt-4">Grade: First class distinction -
+							                   GPA: 8.90
+						</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2023</span>
+    					<h2>Diploma</h2>
+    					<span class="position">Guru Gobind Singh Polytechnic</span>
+    					<p class="mt-4">Grade: First class distinction - 75.31%</p>
+    				</div>
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="http://digil.ink/l/16402OyDH8V" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample Data Analytics And Android projects </p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Nandini1703/agriculture-dashboard" class="block-20 zoom-effect" style="background-image: url('images/snapshot agri dashboard.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Nandini1703/agriculture-dashboard">Developed an interactive agricultural dashboard to analyze crop production, yield trends, and regional performance</a></h3>
+                <p>Utilized data analytics techniques to clean, process, and visualize large agricultural datasets</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Nandini1703/Blinkit-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/blinkit dashboard.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Nandini1703/Diploma_Project">Developed an interactive sales dashboard to analyze product performance, revenue trends, and customer purchasing behavior</a></h3>
+                <p>Created dynamic visualizations including KPIs, category-wise sales, outlet performance, and filters for deeper insights.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/Nandini1703/Diploma_Project" class="block-20 zoom-effect" style="background-image: url('images/diploma.jpeg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Nandini1703/Diploma_Project">Developed an Android application to connect college students with industry professionals for job and internship opportunities.</a></h3>
+                <p>Built the application using Java in Android Studio and designed the UI using XML for a smooth user experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		
+			
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="6">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="4">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="8">0</strong>
+                <span>internships and Traning</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="10">0</strong>
+                <span>Certification Earned</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/green_people.jpeg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/Nandini1703" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Nashik, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+ 0 101 0101 101</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">conctact@domainname.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="http://digil.ink/l/16402OyDH8V">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/Nandini1703/"><span class="icon-linkedin"></span></a></li>  
+		
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			<footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> Nandini Barkale | 
+  Designed & Customized by Nandini Barkale   <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
